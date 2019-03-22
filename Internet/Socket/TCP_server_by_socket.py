@@ -1,3 +1,7 @@
+"""
+使用socket模块创建TCP服务器
+use socket package to create a TCP server
+"""
 import socket
 import threading
 import time

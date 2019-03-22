@@ -1,3 +1,7 @@
+"""
+使用socket模块创建UDP服务器
+use socket package to create a UDP server
+"""
 import socket
 # socket.SOCK_DGRAM declare the UDP connection
 server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
