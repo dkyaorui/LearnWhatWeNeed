@@ -5,5 +5,5 @@
 
 此目录下使用`python`语言中`socket`和`socketserver`模块实现套接字的理解教学编程，
 
-如果想了解更多请浏览[官方文档](https://docs.python.org/3/library/socket.html?highlight=socket#module-socket)或[联系我](https://github.com/dkyaorui/LearnWhatWeNeed)，我会及时更新相关代码
+如果想了解更多请浏览[官方文档](https://docs.python.org/3/library/socket.html?highlight=socket#module-socket)或[联系我](https://github.com/dkyaorui/LearnWhatWeNeed/blob/master/README.md)，我会及时更新相关代码
 
