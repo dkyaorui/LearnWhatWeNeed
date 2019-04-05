@@ -1,3 +1,5 @@
 Pipfile.lock
 Pipfile
-.idea/
+.idea/*
+.vscode/*
+
