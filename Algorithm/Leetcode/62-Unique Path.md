@@ -37,13 +37,13 @@
 
 在网格中，到达第一行和第一列的所有格子的路径数都为一（一直横着走或者一直竖着走），到达其余的格子的路径数为左边格子的路径数加上边格子的路径数，所以可以得到方程：
 
-> $$
-> dp[i][j] =
->         \begin{cases}
->         1,  & \text{i = 1,j = 1} \\
->         dp[i-1][j]+dp[i][j-1], & \text{i}\neq{1,j}\neq{1}
->         \end{cases}
-> $$
+<img src="http://latex.codecogs.com/gif.latex?\$$
+dp[i][j] =
+         \begin{cases}
+         1,  & \text{i = 1,j = 1} \\
+         dp[i-1][j]+dp[i][j-1], & \text{i}\neq{1,j}\neq{1}
+         \end{cases}
+$$}" /> 
 
 ```java
 package leetcode;
